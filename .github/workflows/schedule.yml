@@ -13,5 +13,5 @@ jobs:
         uses: ahnseokbeom/productive-box@master
         env:
           GH_TOKEN: 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
-          GIST_ID: a625e10380201946fdbe6418a9105e48
+          GIST_ID: b2cd0f2a0e444005f12fcb41fc7ac7fe
           TIMEZONE: Asia/Seoul
