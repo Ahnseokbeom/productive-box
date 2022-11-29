@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: ahnseokbeom/productive-box@master
         env:
-          GH_TOKEN: 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
-          GIST_ID: b2cd0f2a0e444005f12fcb41fc7ac7fe
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
